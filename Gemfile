@@ -8,7 +8,7 @@ group :development, :unit_tests do
     gem 'puppetlabs_spec_helper', '= 1.1.1',                :require => false
   else
     gem 'metadata-json-lint',                               :require => false
-    gem 'puppetlabs_spec_helper',                           :require => false
+    gem 'puppetlabs_spec_helper', '~> 1.0',                :require => false
   end
   gem 'puppet-lint',                                      :require => false
   gem 'puppet-lint-absolute_classname-check',             :require => false
